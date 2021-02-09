@@ -1,0 +1,7 @@
+# OOS Camera and it's dependencies
+etc/permissions/com.oneplus.camera.service.xml
+-priv-app/OnePlusCameraService/OnePlusCameraService.apk
+-system_ext/priv-app/OnePlusGallery/OnePlusGallery.apk
+-system_ext/priv-app/OnePlusCamera/OnePlusCamera.apk
+system_ext/lib/libopcameralib-em.so
+system_ext/lib64/libopcameralib-em.so
