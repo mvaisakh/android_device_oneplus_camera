@@ -5,3 +5,5 @@ etc/permissions/com.oneplus.camera.service.xml
 -system_ext/priv-app/OnePlusCamera/OnePlusCamera.apk
 system_ext/lib/libopcameralib-em.so
 system_ext/lib64/libopcameralib-em.so
+vendor/lib/libswregistrationalgo.so
+vendor/lib64/libswregistrationalgo.so
