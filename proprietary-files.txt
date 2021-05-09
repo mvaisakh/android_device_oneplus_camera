@@ -1,6 +1,6 @@
 # OOS Camera and it's dependencies
 etc/permissions/com.oneplus.camera.service.xml
-system_ext/etc/permissions/privapp-permissions-oem-system_ext.xml|f3fa9155b3c645fe2379379dd420b7cb8fe30455
+system_ext/etc/permissions/privapp-permissions-oem-system_ext.xml|a48c788c0358a735b2799a1cea3bac1d5436f9e9
 -priv-app/OnePlusCameraService/OnePlusCameraService.apk
 -system_ext/priv-app/OnePlusGallery/OnePlusGallery.apk
 -system_ext/priv-app/OnePlusCamera/OnePlusCamera.apk
