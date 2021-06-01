@@ -1,10 +1,26 @@
 # OOS Camera and it's dependencies
 etc/permissions/com.oneplus.camera.service.xml
-system_ext/etc/permissions/privapp-permissions-oem-system_ext.xml|a48c788c0358a735b2799a1cea3bac1d5436f9e9
+-system_ext/framework/vendor.oneplus.hardware.CameraMDMHIDL-V1.0-java.jar
+-system_ext/framework/vendor.oneplus.hardware.camera-V1.0-java.jar
+system_ext/etc/permissions/privapp-permissions-oem-system_ext.xml
 -priv-app/OnePlusCameraService/OnePlusCameraService.apk
 -system_ext/priv-app/OnePlusGallery/OnePlusGallery.apk
 -system_ext/priv-app/OnePlusCamera/OnePlusCamera.apk
 system_ext/lib/libopcameralib-em.so
 system_ext/lib64/libopcameralib-em.so
+system_ext/lib/libCameraMDMHelper.so
+system_ext/lib64/libCameraMDMHelper.so
+system_ext/lib/libqvrcamera_client.qti.so
+system_ext/lib/libqvrservice.so
+system_ext/lib/libqvr_eyetracking_plugin.so
+system_ext/lib64/libqvrcamera_client.qti.so
+vendor/lib/camera/components/com.qti.stats.af.so
+vendor/lib/camera/components/com.qti.stats.asd.so
+vendor/lib/libopenvx.so
+vendor/lib64/camera/components/com.qti.stats.af.so
+vendor/lib64/camera/components/com.qti.stats.asd.so
+vendor/lib64/libopenvx.so
+vendor/lib64/libst_relighting.so
 vendor/lib/libswregistrationalgo.so
 vendor/lib64/libswregistrationalgo.so
+vendor/lib/vendor.oneplus.hardware.camera@1.0.so
