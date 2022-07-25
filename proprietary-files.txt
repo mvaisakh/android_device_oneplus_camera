@@ -1,2 +1,5 @@
 # OOS Camera and it's dependencies
-my_product/app/OplusCamera/OplusCamera.apk:product/app/OplusCamera/OplusCamera.apk;PRESIGNED
+-my_product/app/OplusCamera/OplusCamera.apk:product/app/OplusCamera/OplusCamera.apk;PRESIGNED
+my_product/product_overlay/etc/permissions/com.oplus.camera.unit.sdk_product.xml:product/etc/permissions/com.oplus.camera.unit.sdk_product.xml
+my_product/product_overlay/etc/permissions/oplus_camera_default_grant_permissions_list.xml:product/etc/permissions/oplus_camera_default_grant_permissions_list.xml
+-my_product/product_overlay/framework/com.oplus.camera.unit.sdk.jar:product/framework/com.oplus.camera.unit.sdk.jar
