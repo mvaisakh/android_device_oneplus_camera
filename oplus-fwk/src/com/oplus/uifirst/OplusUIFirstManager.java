@@ -3,10 +3,10 @@ package com.oplus.uifirst;
 import com.oplus.uifirst.Utils;
 
 public class OplusUIFirstManager extends Utils {
-    private OplusUIFirstManager sInstance = null;
+    private static OplusUIFirstManager sInstance = null;
     private OplusUIFirstManager() {}
 
-    public OplusUIFirstManager getInstance() {
+    public static OplusUIFirstManager getInstance() {
         if (sInstance == null) {
             sInstance = new OplusUIFirstManager();
         }
