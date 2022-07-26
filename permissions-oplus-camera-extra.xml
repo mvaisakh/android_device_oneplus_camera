@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packages>
+    <default-grant-permissions package="com.oplus.camera" >
+        <permission name="android.permission.SYSTEM_CAMERA"/>
+        <permission name="android.permission.CAMERA_OPEN_CLOSE_LISTENER"/>
+    </default-grant-permissions>
+</packages>
