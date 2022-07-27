@@ -10,6 +10,6 @@ PRODUCT_BOOT_JARS += oplus-fwk
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/hiddenapi-package-whitelist-oplus-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-package-whitelist-oplus-system.xml \
-    $(LOCAL_PATH)/permissions-oplus-camera-extra.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/permissions-oplus-camera-extra.xml
+    $(LOCAL_PATH)/permissions-oplus-camera-extra.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/default-permissions/permissions-oplus-camera-extra.xml
 
 $(call inherit-product, vendor/oneplus/camera/camera-vendor.mk)
