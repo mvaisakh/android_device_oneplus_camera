@@ -1,7 +1,10 @@
 package com.oplus.app;
 
+import android.os.UserHandle;
+
 public class OPlusAccessControlManager {
     private static volatile OPlusAccessControlManager sInstance = null;
+    public static final int USER_CURRENT = UserHandle.myUserId();
 
     private OPlusAccessControlManager() {
     }
