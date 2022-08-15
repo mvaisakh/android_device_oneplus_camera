@@ -11,4 +11,4 @@ my_product/lib64/libAPSClient-jni.so:product/lib64/libAPSClient-jni.so
 system_ext/lib64/libAPSClient-jni.qti.so:product/lib64/libAPSClient-jni.qti.so
 system_ext/lib64/libHeifEncoderWrapper.so:product/lib64/libHeifEncoderWrapper.so
 system_ext/lib64/libNativeWinBuffExchange.so:product/lib64/libNativeWinBuffExchange.so
-
+-system_ext/priv-app/OplusAppPlatform/OplusAppPlatform.apk;PRESIGNED

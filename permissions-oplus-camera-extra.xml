@@ -9,4 +9,10 @@
         <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="true" />
         <permission name="android.permission.READ_PHONE_STATE" fixed="true" />
      </privapp-permissions>
+
+     <privapp-permissions package="com.oplus.customize.coreapp">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+    </privapp-permissions>
 </permissions>
