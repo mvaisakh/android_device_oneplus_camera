@@ -17,7 +17,7 @@ public class OplusFeatureConfigManager {
         return sInstance;
     }
 
-    boolean hasFeature() throws RemoteException {
+    boolean hasFeature(String string) throws RemoteException {
         return false;
     }
 }
