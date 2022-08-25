@@ -19,8 +19,14 @@ OPLUS_CAMERA_PROPERTIES := \
     persist.vendor.camera.privapp.list=com.oplus.camera \
     persist.camera.privapp.list=com.oplus.camera
 
-PRODUCT_VENDOR_PROPERTIES += $(OPLUS_CAMERA_PROPERTIES)
-PRODUCT_PRODUCT_PROPERTIES += $(OPLUS_CAMERA_PROPERTIES)
+PRODUCT_VENDOR_PROPERTIES += \
+    $(OPLUS_CAMERA_PROPERTIES) \
+    vendor.camera.algo.jpeghwencode=0
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    $(OPLUS_CAMERA_PROPERTIES) \
+    ro.com.google.lens.oem_camera_package=com.oplus.camera \
+    ro.com.google.lens.oem_image_package=com.oneplus.gallery
 
 PRODUCT_PACKAGES += \
     camera.device@3.6-external-impl:64
