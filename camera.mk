@@ -21,4 +21,7 @@ OPLUS_CAMERA_PROPERTIES := \
 PRODUCT_VENDOR_PROPERTIES += $(OPLUS_CAMERA_PROPERTIES)
 PRODUCT_PRODUCT_PROPERTIES += $(OPLUS_CAMERA_PROPERTIES)
 
+PRODUCT_PACKAGES += \
+    camera.device@3.6-external-impl:64
+
 $(call inherit-product, vendor/oneplus/camera/camera-vendor.mk)
