@@ -8,4 +8,6 @@
   <!-- Camera -->
   <hidden-api-whitelisted-app package="com.oplus.camera" />
 
+  <!-- Gallery -->
+  <hidden-api-whitelisted-app package="com.oneplus.gallery" />
 </config>
