@@ -1,16 +1,14 @@
 package com.oplus.uifirst;
 
-import com.oplus.uifirst.Utils;
-
-public class OplusUIFirstManager extends Utils {
-    private static OplusUIFirstManager sInstance = null;
-    private OplusUIFirstManager() {}
+public class OplusUIFirstManager {
+    
+    private static OplusUIFirstManager sOplusUIFirstManager = null;
 
     public static OplusUIFirstManager getInstance() {
-        if (sInstance == null) {
-            sInstance = new OplusUIFirstManager();
+        if (sOplusUIFirstManager == null) {
+            sOplusUIFirstManager = new OplusUIFirstManager();
         }
-        return sInstance;
+        return sOplusUIFirstManager;
     }
 
     public void setUxThreadValue(int pid, int tid, String value) {
