@@ -11,6 +11,7 @@ PRODUCT_BOOT_JARS += oplus-fwk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/hiddenapi-package-whitelist-oplus-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-package-whitelist-oplus-system.xml \
     $(LOCAL_PATH)/permissions-oplus-camera-extra.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/default-permissions/permissions-oplus-camera-extra.xml \
+    $(LOCAL_PATH)/public.libraries-qti.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-qti.txt \
     $(LOCAL_PATH)/init.camera.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.camera.rc
 
 OPLUS_CAMERA_PROPERTIES := \
