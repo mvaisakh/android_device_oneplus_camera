@@ -29,6 +29,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.lens.oem_image_package=com.oneplus.gallery
 
 PRODUCT_PACKAGES += \
-    camera.device@3.6-external-impl:64
+    camera.device@3.6-external-impl:64 \
+    libcamera2ndk_vendor
 
 $(call inherit-product, vendor/oneplus/camera/camera-vendor.mk)
