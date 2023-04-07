@@ -1,0 +1,10 @@
+//
+// Copyright (C) 2023 StatiXOS
+// SPDX-License-Identifier: Apache-2.0
+//
+
+java_library {
+    name: "opluscameraframework",
+    installable: true,
+    srcs: ["src/**/*.java"],
+}

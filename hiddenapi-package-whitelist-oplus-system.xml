@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 StatiXOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<config>
+  <!-- Camera -->
+  <hidden-api-whitelisted-app package="com.oplus.camera" />
+</config>
