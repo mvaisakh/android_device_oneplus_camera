@@ -1,1 +1,6 @@
-# Initial empty blob list
+# OPlus Camera and it's dependencies
+# Extracted from OnePlus9Pro_IND OnePlus9Pro 13 TP1A.220905.001 R.ec623c-2-1c7 user release-keys
+#
+
+# Camera
+my_product/app/OplusCamera/OplusCamera.apk:product/app/OplusCamera/OplusCamera.apk
