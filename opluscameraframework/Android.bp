@@ -6,5 +6,6 @@
 java_library {
     name: "opluscameraframework",
     installable: true,
+    system_ext_specific: true,
     srcs: ["src/**/*.java"],
 }
