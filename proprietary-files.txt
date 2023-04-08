@@ -3,8 +3,8 @@
 #
 
 # Camera
--my_product/app/OplusCamera/OplusCamera.apk:product/priv-app/OplusCamera/OplusCamera.apk
+-my_product/app/OplusCamera/OplusCamera.apk:system_ext/priv-app/OplusCamera/OplusCamera.apk
 
 # Camera libs
-odm/lib64/lib2DSlender.so:product/lib64/lib2DSlender.so
-my_product/lib64/libApsFaceBeautyPreviewProductJni.so:product/lib64/libApsFaceBeautyPreviewProductJni.so
+odm/lib64/lib2DSlender.so:system_ext/lib64/lib2DSlender.so
+my_product/lib64/libApsFaceBeautyPreviewProductJni.so:system_ext/lib64/libApsFaceBeautyPreviewProductJni.so
