@@ -3,7 +3,7 @@
 #
 
 # Camera
--my_product/app/OplusCamera/OplusCamera.apk:system_ext/app/OplusCamera/OplusCamera.apk
+my_product/app/OplusCamera/OplusCamera.apk:system_ext/app/OplusCamera/OplusCamera.apk
 
 # Camera libs
 odm/lib64/lib2DSlender.so:system_ext/lib64/lib2DSlender.so
