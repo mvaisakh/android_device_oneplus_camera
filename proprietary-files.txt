@@ -8,3 +8,7 @@ my_product/app/OplusCamera/OplusCamera.apk:product/app/OplusCamera/OplusCamera.a
 # Camera libs
 odm/lib64/lib2DSlender.so
 my_product/lib64/libApsFaceBeautyPreviewProductJni.so:product/lib64/libApsFaceBeautyPreviewProductJni.so
+
+# Camera Unit SDK
+my_product/product_overlay/etc/permissions/com.oplus.camera.unit.sdk_product.xml:product/etc/permissions/com.oplus.camera.unit.sdk_product.xml
+-my_product/product_overlay/framework/com.oplus.camera.unit.sdk.jar:product/framework/com.oplus.camera.unit.sdk.jar
