@@ -12,3 +12,6 @@ my_product/lib64/libApsFaceBeautyPreviewProductJni.so:product/lib64/libApsFaceBe
 # Camera Unit SDK
 my_product/product_overlay/etc/permissions/com.oplus.camera.unit.sdk_product.xml:product/etc/permissions/com.oplus.camera.unit.sdk_product.xml
 -my_product/product_overlay/framework/com.oplus.camera.unit.sdk.jar:product/framework/com.oplus.camera.unit.sdk.jar
+
+# Gallery
+-my_bigball/priv-app/OnePlusGallery/OnePlusGallery.apk:product/priv-app/OnePlusGallery/OnePlusGallery.apk;PRESIGNED
